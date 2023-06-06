@@ -13,11 +13,7 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
 
    
-    public HomeController(Context_Db _db)
-    {
-        db=_db;
-        // hello
-    }
+    public HomeController(Context_Db _db){db=_db;}
     
     public IActionResult Index()
     {
