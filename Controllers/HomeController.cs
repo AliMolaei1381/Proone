@@ -16,7 +16,7 @@ public class HomeController : Controller
     public HomeController(Context_Db _db)
     {
         db=_db;
-        
+        // hello
     }
     
     public IActionResult Index()
