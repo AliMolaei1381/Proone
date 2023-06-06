@@ -8,12 +8,17 @@ namespace Pro.Controllers;
 public class HomeController : Controller
 {
 
-    private readonly Context_Db db;
+   
+   
+   
+   
+   private readonly Context_Db db;
     
     private readonly ILogger<HomeController> _logger;
 
    
-    public HomeController(Context_Db _db){db=_db;}
+    public HomeController(Context_Db _db)
+    {db=_db;}
     
     public IActionResult Index()
     {
